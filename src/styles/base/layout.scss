@@ -1,0 +1,18 @@
+#app {
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+
+.inner-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+
+  .content-page {
+    flex-grow: 1;
+
+    .main-content {
+      padding: 15px;
+    }
+  }
+}

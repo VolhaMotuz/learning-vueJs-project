@@ -1,0 +1,35 @@
+.sidebar-box {
+  padding: 20px 15px !important;
+  width: 25%;
+  box-sizing: border-box;
+  color: #000000;
+  background: #eeeeee;
+
+  .title {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      padding: 5px 0;
+
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      &.active {
+        color: #4C84FF;
+
+        a {
+          color: #4C84FF;
+        }
+      }
+    }
+  }
+}

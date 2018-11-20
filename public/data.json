@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Product1",
+        "UID": "FUGNKIH",
+        "platforms":["iOS", "Android"],
+        "platformsStatistics":
+            {
+                "iosDAU": 53,
+                "iosMau": 42,
+                "androidDAU": 35,
+                "androidMAU": 58,
+                "iosDiffDAU": 5,
+                "iosDiffMAU": 7,
+                "androidDiffDAU": -2,
+                "androidDiffMAU": 1
+            },
+        "totalUsers": 1000,
+        "uniqueDevices": 940,
+        "currentVersion": 1.04,
+        "purchasePackages": 15,
+        "firstParty": true,
+        "thirdParty": false,
+        "party": "1st Party"
+
+    },
+    {
+        "id": 2,
+        "title": "Product2",
+        "UID": "KHFRFGB",
+        "platforms":["Android"],
+        "platformsStatistics":
+            {
+                "iosDAU": 136,
+                "iosMau": 265,
+                "androidDAU": null,
+                "androidMAU": null,
+                "iosDiffDAU": 3,
+                "iosDiffMAU": -4,
+                "androidDiffDAU": null,
+                "androidDiffMAU": null
+            },
+        "totalUsers": 2350,
+        "uniqueDevices": 1980,
+        "currentVersion": 1.3,
+        "purchasePackages": 10,
+        "firstParty": false,
+        "thirdParty": true,
+        "party": "3rd Party"
+    }
+]

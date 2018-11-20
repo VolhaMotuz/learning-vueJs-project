@@ -1,0 +1,32 @@
+.inner-page-wrapper {
+
+  .content-page {
+
+    .main-content {
+
+      form {
+        width: 25%;
+
+        label {
+          margin: 0;
+        }
+      }
+
+      .form-row {
+
+        .title {
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+
+        .styling-checkbox-block {
+          padding-bottom: 10px;
+
+          label {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,28 +1,47 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<div v-if="authenticated">bla-bla</div>-->
+    <router-view @authenticated="setAuthenticated"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    export default {
+        name: 'App',
+        data() {
+            return {
+                authenticated: false,
+                registered: true,
+                account: {
+                    username: "user1",
+                    password: "123123"
+                },
+            }
+        },
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+        methods: {
+            mounted() {
+                if(!this.authenticated) {
+                    this.$router.replace({ name: "login" });
+                }
+            },
+            setAuthenticated(status) {
+                this.authenticated = status;
+            },
+            logout() {
+                this.authenticated = false;
+            }
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    margin: 0;
+    font-family: "Arial";
+  }
+</style>
+
+<style lang="scss">
+  @import 'styles/style.scss';
 </style>

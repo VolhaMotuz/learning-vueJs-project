@@ -1,0 +1,43 @@
+.inner-page-wrapper {
+
+  .content-page {
+
+    .main-content {
+
+      .filters {
+        padding-bottom: 30px;
+        display: flex;
+
+        &__title {
+          font-weight: bold;
+        }
+
+        &__content {
+
+        }
+
+        &__item {
+          margin-left: 30px;
+        }
+      }
+
+      table {
+        margin-top: 30px;
+        width: 100%;
+
+        th {
+          text-align: left;
+          padding: 5px 0;
+        }
+
+        td {
+          padding: 5px 0;
+
+          .show {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

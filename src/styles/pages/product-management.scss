@@ -1,0 +1,39 @@
+.inner-page-wrapper {
+
+  .content-page {
+
+    .main-content {
+      display: block;
+
+      &__title {
+        padding: 20px 0;
+        font-size: 22px;
+        text-align: center;
+      }
+
+      .data-box {
+        display: flex;
+
+        &__left {
+          width: 40%;
+
+          .info {
+            font-size: 16px;
+            padding-bottom: 15px;
+
+            &__title {
+              font-weight: bold;
+            }
+          }
+        }
+
+        &__right {
+          width: 60%;
+          display: flex;
+        }
+      }
+
+
+    }
+  }
+}

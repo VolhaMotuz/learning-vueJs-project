@@ -1,0 +1,42 @@
+[
+    {
+        "generalStates":
+        {
+            "firstParty": 2,
+            "thirdParty": 1,
+            "totalUsers": 3350,
+            "uniqueDevices": 1550
+        },
+        "platformDAU":
+        {
+            "ios": 274,
+            "android": 135
+        },
+        "platformMAU":
+        {
+            "ios": 2574,
+            "android": 1135
+        },
+        "dailyRevenueIAP":
+        {
+            "ios": 4674,
+            "android": 9665
+        },
+        "monthlyRevenueIAP":
+        {
+            "ios": 2344,
+            "android": 1545
+        },
+        "dailyImpressions":
+        {
+            "ios": 3587,
+            "android": 3218
+        },
+        "monthlyImpressions":
+        {
+            "ios": 7346,
+            "android": 4398
+        }
+
+    }
+]
